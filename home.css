@@ -1,0 +1,27 @@
+.hero {
+  height: 100vh; /* full layar */
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #111;
+  color: white;
+}
+
+.hero-text {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.other {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.english {
+  font-style: italic;
+}
+

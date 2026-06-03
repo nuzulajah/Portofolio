@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>vertical-align demo</title>
+
+<style>
+body {
+  font-size: 30px;
+  line-height: 120px;
+}
+
+.box {
+  width: 70px;
+  height: 70px;
+  background: orange;
+  display: inline-block;
+  margin: 10px;
+}
+
+.other-box {
+  width: 70px;
+  height: 70px;
+  background: red;
+  display: inline-block;
+  margin: 10px;
+}
+
+.baseline {
+  vertical-align: baseline;
+}
+
+.top {
+  vertical-align: top;
+}
+
+.middle {
+  vertical-align: middle;
+}
+
+.bottom {
+  vertical-align: bottom;
+}
+
+.texttop {
+  vertical-align: text-top;
+}
+
+.textbottom {
+  vertical-align: text-bottom;
+}
+
+.sub {
+  vertical-align: sub;
+}
+
+.super {
+  vertical-align: super;
+}
+</style>
+</head>
+<body>
+
+<p>
+  <span class="other-box baseline">X</span>
+  <span class="box baseline">B</span>
+  baseline
+</p>
+
+<p>
+  <span class="other-box baseline">X</span>
+  <span class="box top">T</span>
+  top
+</p>
+
+<p>
+  <span class="other-box baseline">X</span>
+  <span class="box middle">M</span>
+  middle
+</p>
+
+<p>
+  <span class="other-box baseline">X</span>
+  <span class="box bottom">B</span>
+  bottom
+</p>
+
+<p>
+  <span class="other-box baseline">X</span>
+  <span class="box texttop">TT</span>
+  text-top
+</p>
+
+<p>
+  <span class="other-box baseline">X</span>
+  <span class="box textbottom">TB</span>
+  text-bottom
+</p>
+
+<p>
+  <span class="other-box baseline">X</span>
+  <span class="box sub">TB</span>
+  text-bottom
+</p>
+
+<p>
+  <span class="other-box baseline">X</span>
+  <span class="box super">TB</span>
+  text-bottom
+</p>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+.project {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    background-color: rgb(198, 193, 193);
+    width: 32%;
+    min-width: 300px;
+    max-width: 400px;
+    padding: 25px;
+    margin: 50px 5px 0;
+    color: black;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.project h2 {
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.project p {
+  color: #222;
+  height: 180px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.project a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+  background-color: #0056b3;
+}
